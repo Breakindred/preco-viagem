@@ -35,7 +35,7 @@ function qtosdias() {
     }
 
     if (document.getElementById("dot-3").checked){
-        total = total * 1.6;
+        total = total * 1.4;
     }
 
     var h1 = document.createElement('h1');
