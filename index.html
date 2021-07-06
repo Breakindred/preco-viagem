@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Preço EUROTRIP</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="hospedagem">Hospedagem</span>
+            <input id="a" type="text" placeholder="Quantos dias vai ficar" required>
+          </div>
+          <div class="input-box">
+            <span class="passaporte">Já tem Passaporte?</span>
+            <input id="b" type="text" placeholder="sim ou não (em minisculo)" required>
+          </div>
+          <div class="input-box">
+            <span class="mochila">Já tem mochila?</span>
+            <input id="c" type="text" placeholder="sim ou não (em minisculo)" required>
+          </div>
+          <div class="input-box">
+            <span class="passagem">Comprar passagem c/ pontos?</span>
+            <input id="d" type="text" placeholder="sim ou não (em minisculo)" required>
+          </div>
+        </div>
+        <div class="price-details">
+          <input type="radio" name="price" id="dot-1">
+          <input type="radio" name="price" id="dot-2">
+          <input type="radio" name="price" id="dot-3">
+          <span class="price-title">A viagem vai ser</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="price">Econômica</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="price1">Normal</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="price2">Luxo</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="button" value="Descobrir" onclick="qtosdias()">
+        </div>
+      </form>
+    </div>
+
+    <div class="flex-box-container-1">
+      <div id ="flex-box-result"></div>
+  </div>
+
+  </div>
+
+  <script src="/viagemfacil2/script.js"></script>
+</body>
+</html>
